@@ -1,0 +1,74 @@
+#homeContainer{
+    background-image: url('../Assets/CoverImg2.jpg');
+    max-width:100%;
+    height:100vh;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#imgContainer {
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: .3;
+    height: 90vh;
+    width: 100%;
+  }
+  .home{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+   
+  }
+  .homeContent{
+    display: flex;
+    justify-content: center;
+    color: blanchedalmond;
+    font-family:serif;
+  }
+  .box{
+    opacity: 0;
+    position: absolute;
+    margin-top:40vh;
+    font-size:60px;
+  }
+  .b1{
+    animation: ani1 10s infinite;
+  }
+  .b2{
+    animation: ani2 10s infinite;
+  }
+  @keyframes ani1{
+    0%{
+        opacity: 0;
+    }
+    25%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+  }
+  @keyframes ani2{
+    50%{
+        opacity: 0;
+    }
+    75%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+  }
+  .cvLink{
+    margin-top: 55vh;
+    border: 1px solid blanchedalmond;
+    padding: 10px 30px;
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .cvLink:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+  }
