@@ -1,0 +1,37 @@
+#resume{
+    background-color: rgb(243, 209, 184);
+    display: flex;
+    min-height: 100vh;
+    
+}
+
+.mainLeft{
+    background-color:rgb(243, 209, 184);
+    position:sticky;
+    top:20px;
+    width: 20vw;
+    height: 300px;
+    box-sizing: border-box;
+    padding: 20px;
+}
+#resumeUL{
+    list-style:none;
+    
+}
+.mainLeft>ul>li{
+    padding-bottom: 10px;
+    font-size:large;
+    
+}
+.mainLeft>ul>li>a{
+    text-decoration: none;
+    color: rgb(94, 91, 87);
+}
+.mainRight{
+    background-color: rgb(243, 209, 184);
+    width: 80vw;
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
