@@ -1,13 +1,12 @@
-#navbarContainer{
-    height: 10vh;
+.navbarContainer{
+    height: 12vh;
     display: flex;
-    /* background-image:  url('../Assets/CoverImg2.1.jpg');;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    opacity: .3;
-    color: white; */
     color: rgb(239, 237, 232);
+    background-color: transparent;
+    position: fixed;
+    width: 100vw;
+    z-index: 1;
+    transition: background-color .5s ease-in-out;
 }
 .initials{
     border: 1px Solid rgb(242, 233, 216);
@@ -16,6 +15,7 @@
     font-size: 30px;
     padding: 3px 1px 10px 1px;
     margin: 20px 0 0 150px;
+    height: 25px;
 }
 .options{
     display: flex;
@@ -25,13 +25,50 @@
     flex-wrap: wrap;
     margin-left: 23vw;
 }
-.options>div{
+.options>ul>li{
     padding: 20px;
     color: rgb(199, 190, 190);
     font-weight: 400;
     font-size: large
 }
-.options>div:hover{
+.options ul li:hover {
     color: white !important;
     cursor: pointer !important;
 }
+
+.navbarContainer.fixed{
+    /* position: fixed; */
+    background-color: rgba(30, 32, 33, 0.5);
+    height: 12vh;
+    
+}
+
+#ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  li {
+    margin: 0 10px;
+  }
+  
+  button {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    color: #ffd700; /* Change to your preferred hover color */
+  }
+  
+  li.active button {
+    color: #ffd700; /* Change to your preferred active color */
+  }

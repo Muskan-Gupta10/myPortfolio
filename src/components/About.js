@@ -2,8 +2,8 @@ import React from 'react'
 import '../Styles/about.css'
 const About = () => {
   return (
-    <div className='aboutContainer'>
-        <div className="about">
+    <div id='about'>
+        <div className="aboutContainer">
             <div className="photo"></div>
             <div className="aboutDetails">
                 <h1>About Me</h1>
