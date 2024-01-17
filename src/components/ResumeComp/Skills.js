@@ -112,6 +112,7 @@ const Skill = ({ id, label, endValue }) => {
 const Skills = () => {
   return (
     <div id="skillsWrapper">
+      <div id='heading'>Skills</div>
     <div id="skills">
       {/* passing diff values for diff skill cards in skill function */}
       <Skill id="progress1" label="React" endValue={90} />
@@ -145,52 +146,3 @@ const Skills = () => {
 export default Skills;
 
 
-   {/* <div className="skills2">
-      <div className="div1">
-      <h3>DataStructure and Algorithm </h3>
-      <ProgressBar 
-    completed={75}
-    bgColor="rgb(89, 79, 66)"
-    height="10px"
-    width="400px"
-    isLabelVisible={false}
-    transitionDuration="3s"
-    animateOnRender='true'
-    /> <br/>
-    <h3>Tailwind CSS</h3>
-   <ProgressBar 
-    completed={70}
-    bgColor="rgb(89, 79, 66)"
-    height="10px"
-    width="400px"
-    isLabelVisible={false}
-    transitionDuration="3s"
-    animateOnRender='true'
-    />
-    
-    </div>
-
-    <div className="div2">
-      <h3>Html5 </h3>
-      <ProgressBar 
-    completed={82}
-    bgColor="rgb(89, 79, 66)"
-    height="10px"
-    width="400px"
-    isLabelVisible={false}
-    transitionDuration="3s"
-    animateOnRender='true'
-    />  <br/>
-    <h3> CSS3</h3>
-    <ProgressBar 
-    completed={79}
-    bgColor="rgb(89, 79, 66)"
-    height="10px"
-    width="400px"
-    isLabelVisible={false}
-    transitionDuration="3s"
-    animateOnRender='true'
-    />
-   
-    </div> 
-    </div> */}

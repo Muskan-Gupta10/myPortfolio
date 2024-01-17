@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#education{
+   height: 120vh;
+   width: 100%;
+   background-image: linear-gradient(to right,rgb(143, 114, 119),rgb(82, 42, 42),rgb(24, 8, 8));
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding-top: 15vh;
+}
+.b {
+    height: 40px;
+    background-color: rgb(23, 7, 7);
+    width: 200px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+}
+.b1,.b2{
+    cursor: pointer;
+}
+.btn2{
+    background-color:rgb(23, 7, 7,.5);
+}
+.line{
+    
+    border-left: 4px solid rgb(23, 7, 7,.5);
+    position: absolute;
+    margin-top: 15vh;
+    border-radius: 5px;
+}
+.l1{
+    height: 470px;
+}
+.l2{
+    height: 200px;
+}
+.dots{
+    border: 5px solid rgb(23, 7, 7);
+    position: absolute;
+    border-radius: 50%;
+    
+
+}
+.d1{
+    margin-top: 25vh;
+}
+.d2{
+    margin-top: 41.5vh;
+}
+.d3{
+    margin-top: 58vh;
+}
+.d4{
+    margin-top: 75vh;
+}
+.eduContent,.expContent{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 9vh;
+    color: rgb(233, 224, 224);
+}
+.eduLeft,.expLeft{
+    float: left;
+    width: 50%;
+    margin-left: 11.5vw;
+    margin-top: -5vh;
+}
+.eduRight,.expRight{
+    padding-left: -8vw;
+}
+.leftContent,.expleftContent{
+    padding-top:13vh ;
+    
+}
+.rightContent,.exprightContent{
+    padding-top: 9vh;
+   
+}
+.elc5{
+    padding-right:800px ;
+    margin: 5vh;
+  
+}
+.erc5{
+    margin-left:-250px ;
+}
