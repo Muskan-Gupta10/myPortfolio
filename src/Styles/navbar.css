@@ -66,9 +66,9 @@
   }
   
   button:hover {
-    color: #ffd700; /* Change to your preferred hover color */
+    color: #d8ca4b; /* Change to your preferred hover color */
   }
   
   li.active button {
-    color: #ffd700; /* Change to your preferred active color */
+    color: #d8ca4b; /* Change to your preferred active color */
   }

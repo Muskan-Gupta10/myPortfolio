@@ -1,3 +1,4 @@
+
 #resume{
     background-color: rgb(243, 209, 184);
     display: flex;
@@ -31,7 +32,7 @@
     background-color: rgb(243, 209, 184);
     width: 80vw;
     flex: 1;
-    padding: 20px;
+    /* padding: 20px; */
     box-sizing: border-box;
 }
 
