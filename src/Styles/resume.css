@@ -1,16 +1,16 @@
 
 #resume{
-    background-color: rgb(243, 209, 184);
+    /* background-color: rgb(250, 245, 242); */
     display: flex;
     min-height: 100vh;
     
 }
 
 .mainLeft{
-    background-color:rgb(243, 209, 184);
+    /* background-color:rgb(243, 209, 184); */
     position:sticky;
     top:20px;
-    width: 20vw;
+    width: 15vw;
     height: 300px;
     box-sizing: border-box;
     padding: 20px;
@@ -29,8 +29,8 @@
     color: rgb(94, 91, 87);
 }
 .mainRight{
-    background-color: rgb(243, 209, 184);
-    width: 80vw;
+    /* background-color: rgb(243, 209, 184); */
+    width: 85vw;
     flex: 1;
     /* padding: 20px; */
     box-sizing: border-box;

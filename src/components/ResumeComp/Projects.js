@@ -1,10 +1,26 @@
 import React from 'react'
+import '../../Styles/projects.css'
 
 const Projects = () => {
   return (
-    <div id='projects'>Projects <br />
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex ratione maiores omnis, ullam blanditiis earum, explicabo totam reiciendis aperiam laborum error officia ipsa voluptatum? Quibusdam accusantium veritatis modi esse, non eum eligendi nulla commodi a reprehenderit ratione exercitationem ut earum eaque minus aliquid fugiat et itaque nostrum saepe, praesentium autem. Tempora quaerat laborum amet totam optio nemo fugit rerum eius, ea nostrum vero sapiente veritatis impedit aliquid autem ullam porro nulla suscipit similique neque at voluptate voluptates. Sed alias modi aspernatur suscipit. Aspernatur neque iure possimus animi at similique adipisci dolorum molestiae quo cum odit, beatae labore a facilis! Placeat cupiditate, excepturi rem ipsum rerum praesentium non obcaecati accusamus illo dolorum aliquam consequatur repudiandae nobis? Ea beatae voluptatibus soluta asperiores eos? Repudiandae consectetur ullam accusantium, odit hic magnam unde aliquid ratione, a et labore corrupti ducimus, enim veritatis? Ad molestias reprehenderit incidunt alias totam animi eaque cupiditate consequatur, porro fugit, dolore illo harum ex beatae reiciendis provident error nostrum, nemo esse? Ipsum nostrum vitae est omnis perspiciatis amet, tempora, aliquam odit earum culpa recusandae, sed iste laudantium incidunt assumenda aspernatur doloremque maiores! Tenetur in, excepturi perferendis placeat accusamus nisi corrupti. Ducimus dicta nulla impedit, delectus eligendi, repellendus rem ut qui, facere quis cumque pariatur. Nam voluptatum neque quis dignissimos beatae alias, et accusantium quam quaerat nihil. Aliquam, animi recusandae. Corporis nisi perferendis animi vero recusandae quam quia? Dolorum neque corporis ducimus molestias nisi animi ratione hic maxime! Voluptas expedita minima asperiores id facilis, ex iure sunt, similique eaque doloremque labore quidem libero! Quisquam eos, ratione fuga odit nihil maiores ad aut architecto quibusdam quasi mollitia reprehenderit quidem soluta? Rerum possimus nostrum maxime ullam facilis, qui illum assumenda odio, sit, dolore ea dolorum tempore alias id. Omnis a aut incidunt sequi qui corrupti voluptate mollitia aliquid temporibus eos, architecto rem deleniti molestiae quod. Voluptatum veniam maiores accusantium, soluta, asperiores officiis rem quas, ipsam excepturi quos deleniti molestias inventore atque libero quis dicta delectus amet iure reprehenderit ad laboriosam. Perferendis molestias illum quam quos dolores. Explicabo vero cumque minima iusto, amet optio enim odit quis ab quisquam quasi et alias. Earum, nisi. Repudiandae nihil accusantium alias numquam, aspernatur qui doloribus doloremque ea minus accusamus repellat laudantium quis et voluptates quasi excepturi porro voluptate, voluptatibus quos? Illo, dolor eos voluptas assumenda accusamus nesciunt officia at totam repellat. Nesciunt in eveniet dignissimos est, laborum inventore non sit mollitia atque, quaerat quia, dolor consequatur perspiciatis!
-    </div>
+    <div id='projectsWrapper'>
+      <div className="projects ">
+        <div className="project1 p1"></div>
+        <div className="project2 p2"></div>
+      </div>
+      <div className="projects ">
+      <div className="project1 p3"></div>
+        <div className="project2 p4"></div>
+      </div>
+      <div className="projects ">
+      <div className="project1 p5"></div>
+        <div className="project2 p6"></div>
+      </div>
+      <div className="projects ">
+      <div className="project1 p7"></div>
+        <div className="project2 p8"></div>
+      </div>
+       </div>
   )
 }
 
