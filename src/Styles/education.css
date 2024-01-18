@@ -6,7 +6,7 @@
 #education{
    height: 120vh;
    width: 100%;
-   background-image: linear-gradient(to right,rgb(143, 114, 119),rgb(82, 42, 42),rgb(24, 8, 8));
+   background-image: linear-gradient(to right,rgb(255, 255, 255),rgb(143, 114, 119),rgb(82, 42, 42),rgb(24, 8, 8));
     display: flex;
     justify-content: center;
     align-items: start;

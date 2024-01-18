@@ -1,7 +1,7 @@
 import React from 'react'
 import '../Styles/home.css'
 //import coverImage from '../Assets/CoverImg2.jpg'
-import Navbar from './Navbar'
+//import Navbar from './Navbar'
 const Home = () => {
   return (
     <>

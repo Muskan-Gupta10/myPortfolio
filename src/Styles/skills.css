@@ -6,7 +6,7 @@
 }
 #skillsWrapper{
     height: 120vh;
-    background: rgb(172, 155, 134);
+    background-image:linear-gradient(to right , rgb(252, 252, 252,.5) ,rgb(202, 194, 185),rgb(172, 155, 134),rgb(172, 155, 134)) ;
     padding: 20px;
    
 }
