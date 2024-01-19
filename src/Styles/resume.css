@@ -9,7 +9,7 @@
 .mainLeft{
     /* background-color:rgb(243, 209, 184); */
     position:sticky;
-    top:20px;
+    top:10vh;
     width: 15vw;
     height: 300px;
     box-sizing: border-box;
@@ -21,7 +21,8 @@
 }
 .mainLeft>ul>li{
     padding-bottom: 10px;
-    font-size:large;
+    font-size:x-large;
+    font-weight: 500;
     
 }
 .mainLeft>ul>li>a{
@@ -35,4 +36,8 @@
     /* padding: 20px; */
     box-sizing: border-box;
 }
-
+.activeResume{
+    margin-left: 10px !important; /* Adjust this value based on your design */
+    color:rgb(185, 164, 164) !important;
+    transition: margin-left 0.3s ease !important; 
+}

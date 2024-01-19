@@ -2,9 +2,9 @@ import React from 'react'
 import '../Styles/contact.css'
 const Contact = () => {
   return (
-    <div id='contactWrapper'>
+    <div id='contact'>
       
-      <div className="contact">
+      <div className="contactWrapper">
         <div className="contactLeft">
           <div className="heading">
           Get in touch 
