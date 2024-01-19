@@ -3,7 +3,8 @@ import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import About from "./components/About"
 import Resume from "./components/Resume";
-import Contact from './components/Contact'
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 import { useEffect, useState } from 'react';
 
 function App() {
@@ -94,6 +95,7 @@ function App() {
     <About id='about'/>
     <Resume id="resume"/>
     <Contact id='contact'/>
+    <Footer/>
     </div>
   );
 }

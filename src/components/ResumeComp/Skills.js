@@ -111,9 +111,9 @@ const Skill = ({ id, label, endValue }) => {
 
 const Skills = () => {
   return (
-    <div id="skillsWrapper">
-      <div id='heading'>Skills</div>
     <div id="skills">
+      <div id='heading'>Skills</div>
+    <div id="skillsWrapper">
       {/* passing diff values for diff skill cards in skill function */}
       <Skill id="progress1" label="React" endValue={90} />
       <Skill id="progress2" label="Node JS" endValue={75} />
