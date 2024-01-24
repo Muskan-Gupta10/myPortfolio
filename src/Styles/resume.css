@@ -29,6 +29,10 @@
     text-decoration: none;
     color: rgb(94, 91, 87);
 }
+.mainLeft>ul>li>a:hover{
+    cursor: pointer;
+    color:rgb(185, 164, 164) 
+}
 .mainRight{
     /* background-color: rgb(243, 209, 184); */
     width: 85vw;
@@ -36,8 +40,8 @@
     /* padding: 20px; */
     box-sizing: border-box;
 }
-.activeResume{
-    margin-left: 10px !important; /* Adjust this value based on your design */
+.activeResume>a{
+    margin-left: 10px ; /* Adjust this value based on your design */
     color:rgb(185, 164, 164) !important;
-    transition: margin-left 0.3s ease !important; 
+    transition: margin-left 0.3s ease ; 
 }

@@ -15,45 +15,6 @@ function App() {
     setActiveSection(index)
   }
 
-  // const handleScroll=() =>{
-  //   const sectionOffsets = {
-  //     home: document.getElementById('home').offsetTop,
-  //     about: document.getElementById('about').offsetTop,
-  //     resume: document.getElementById('resume').offsetTop,
-  //     contact: document.getElementById('contact').offsetTop,
-  //   };
-  //   console.log(sectionOffsets.home,sectionOffsets.about,sectionOffsets.resume);
-  //   const scrollPosition= window.scrollY
-  //   // if (scrollPosition < AboutOffset) {
-  //   //   setActiveSection(0);
-  //   // } 
-  //   // else if (scrollPosition < ResumeOffset) {
-  //   //   setActiveSection(1);
-  //   // } 
-  //   // else if (scrollPosition < ContactOffset) {
-  //   //   setActiveSection(2);
-  //   // } 
-  //   // else {
-  //   //   setActiveSection(3);
-  //   // }
-  //   let activeSection = 0;
-
-  // if (scrollPosition >= sectionOffsets.about) {
-  //   activeSection = 1;
-  // }
-
-  // if (scrollPosition >= sectionOffsets.resume) {
-  //   activeSection = 2;
-  // }
-
-  // if (scrollPosition >= sectionOffsets.contact) {
-  //   activeSection = 3;
-  // }
-
-  // setActiveSection(activeSection);
-
-  // }
-
   const handleScroll = () => {
     const homeElement = document.getElementById('home');
     const aboutElement = document.getElementById('about');
@@ -69,7 +30,7 @@ function App() {
     for (let i = 0; i < elements.length; i++) {
       const element = elements[i];
   
-      if (element && element.offsetTop <= scrollPosition && element.offsetTop + element.offsetHeight > scrollPosition) {
+      if (element && element.offsetTop-100 <= scrollPosition && element.offsetTop + element.offsetHeight -100> scrollPosition) {
         activeSection = i;
         break;
       }
