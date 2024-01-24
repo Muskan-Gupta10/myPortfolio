@@ -12,3 +12,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.active-scroll-spy {
+  margin-left: 10px !important; /* Adjust this value based on your design */
+  color:rgb(185, 164, 164) !important;
+  transition: margin-left 0.3s ease !important; 
+}

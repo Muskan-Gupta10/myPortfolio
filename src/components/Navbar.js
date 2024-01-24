@@ -10,8 +10,8 @@ const Navbar = ({sections, activeSection, onNavClick}) => {
     const sectionIds = ['home', 'about', 'resume', 'contact'];
     const sectionId = sectionIds[index];
     const sectionElement = document.getElementById(sectionId);
-    console.log('handleClick - sectionId:', sectionId);
-  console.log('handleClick - sectionElement:', sectionElement);
+    // console.log('handleClick - sectionId:', sectionId);
+  // console.log('handleClick - sectionElement:', sectionElement);
 
     if (sectionElement) {
       sectionElement.scrollIntoView({ behavior: 'smooth' });
@@ -20,7 +20,7 @@ const Navbar = ({sections, activeSection, onNavClick}) => {
     
   };
   
-
+// sticky navbar logic
  const [fixed,setFixed]=useState(false)
 
  function setFixedNavbar(){
@@ -29,7 +29,7 @@ const Navbar = ({sections, activeSection, onNavClick}) => {
   }
   else setFixed(false)
  }
- window.addEventListener('scroll',setFixedNavbar)
+ window.addEventListener('scroll',setFixedNavbar)// sticky navbar logic
   
   return (
     

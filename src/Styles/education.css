@@ -19,6 +19,7 @@
     padding: 5px;
     margin: 5px;
     border-radius: 5px;
+    box-shadow: 5px 8px 5px rgb(10, 10, 10,.5);
 }
 .b1,.b2{
     cursor: pointer;
