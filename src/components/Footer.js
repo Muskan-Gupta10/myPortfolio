@@ -6,7 +6,7 @@ import { FaTwitter } from "react-icons/fa";
 const Footer = () => {
     const githubUrl='https://github.com/Muskan-Gupta10/'
     const linkedInProfileUrl='https://www.linkedin.com/in/muskan-gupta-19a90626b/'
-    const TwitterProfileUrl='#'
+    const TwitterProfileUrl='https://twitter.com/MuskanGupta__10'
   return (
     <div id='footer'>
         Socials

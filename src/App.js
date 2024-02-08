@@ -7,6 +7,7 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import { useEffect, useState } from 'react';
 
+
 function App() {
 
   const [activeSection,setActiveSection]= useState(0)
@@ -52,11 +53,12 @@ function App() {
     <div className="App">
    
       <Navbar sections={['Home','About','Resume','Contact']} activeSection={activeSection} onNavClick={handleNavClick}/>
-    <Home id='home'/>
+     <Home id='home'/>
     <About id='about'/>
     <Resume id="resume"/>
     <Contact id='contact'/>
-    <Footer/>
+    <Footer/> 
+     
     </div>
   );
 }

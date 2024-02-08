@@ -22,11 +22,21 @@
 }
 .circleImage{
     background-color: bisque;
+  
     width: 200px;
     height: 200px;
     margin-top: 5vh;
     border-radius: 50%;
     box-shadow: 10px 10px 5px rgb(10, 10, 10,.5);
+}
+#image{
+    background-image: url('../Assets/profile-pic\ \(8\).png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    padding-top: -10px;
+    border-radius: 50%;
 }
 .contactRight{
     float:left;
@@ -78,4 +88,6 @@
     resize: vertical;
     width:25vw;
   } */
-  
+  #pcontact{
+    font-size: 1rem;
+  }

@@ -29,9 +29,10 @@ const Contact = () => {
       <div className="contactWrapper">
         <div className="contactLeft">
           <div className="heading">
-          Get in touch 
+          
           <h2>Contact</h2>
-          <div className="circleImage"></div>
+          Get in touch 
+          <div className="circleImage"><div id="image"></div></div>
           </div>
         </div>
         <div className="contactRight">

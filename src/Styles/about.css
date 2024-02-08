@@ -1,29 +1,86 @@
 #about{
-    height: 220vh;
+    height: 145vh;
     overflow-x: hidden;
 }
 .aboutContainer{
     width:100%;
     display: flex;
-    height: 120vh;
+    height: 145vh;
 }
-.photo{
-    width: 40%;
+.photoContainer{
+    width: 35%;
     float:left;
     background-color: rgb(199, 171, 138);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+.photo{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    /* height: 60%;
+    width:70%;
+    background-color: aquamarine;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    background-image: url('../Assets/Untitled\ design\ \(2\).png'); */
+}
+
+.photoImage{
+    width: 70% ;
+    height: auto;
+    display: block;
+    box-shadow: 10px 10px 7px  black ;
+}
+.frameImage{
+    position: absolute;
+    top: 0;
+    /* left: 0; */
+    width: 80%;
+    height: 100%;
+    z-index: 1;
+}
+.topRightShadow,
+.bottomLeftShadow {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    
+}
+
+.topRightShadow {
+    top: 0;
+    right: 0;
+    border-width: 0 300px 300px 0;
+    border-color: transparent rgba(0, 0, 0, 0.5) transparent transparent;
+}
+
+.bottomLeftShadow {
+    bottom: 0;
+    left: 0;
+    border-width: 300px 0 0 300px;
+    border-color: transparent transparent transparent rgba(0, 0, 0, 0.7);
+}
+
+
 .aboutDetails{
     padding-top: 100px;
-    width: 60%;
+    width: 70%;
     float:left;
     background-color: rgb(248, 246, 248);
-    padding-left: 50px;
+    padding: 55px;
 }
 h1{
     font-size: 50px;
 }
 .i1{
-    color: rgb(161, 157, 157);
+    color: rgb(117, 112, 112);
     margin-bottom: 40px;
     font-weight: 500;
 }
@@ -37,7 +94,7 @@ h1{
     width: 30%;
     float:left;
     font-weight: 600;
-    color: rgb(58, 53, 53);
+    color: rgb(27, 23, 23);
     
 }
 .sec2{
