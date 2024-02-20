@@ -34,7 +34,7 @@ const Navbar = ({sections, activeSection, onNavClick}) => {
   return (
     
     
-    <div className={fixed?"navbarContainer fixed":"navbarContainer"}>
+    <div className={fixed?"navbarContainer fixed":"navbarContainer"} mediaContainer>
       <span className="initials">MG</span>
       <nav className="options">
        
@@ -42,7 +42,7 @@ const Navbar = ({sections, activeSection, onNavClick}) => {
         {sections.map((section,index)=>(
           
           <li key={index} className={index===activeSection?'active':''}>
-            <button onClick={()=> handleClick(index)}>{section}</button>
+            <button id='navbtn' onClick={()=> handleClick(index)}>{section}</button>
           </li>
         ))}
         </ul>

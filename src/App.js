@@ -6,6 +6,7 @@ import Resume from "./components/Resume";
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import { useEffect, useState } from 'react';
+// import ParallaxSection from './components/ParallaxSection';
 
 
 function App() {
@@ -54,7 +55,9 @@ function App() {
    
       <Navbar sections={['Home','About','Resume','Contact']} activeSection={activeSection} onNavClick={handleNavClick}/>
      <Home id='home'/>
+     {/* <ParallaxSection/> */}
     <About id='about'/>
+    
     <Resume id="resume"/>
     <Contact id='contact'/>
     <Footer/> 

@@ -1,0 +1,91 @@
+#textblock {
+    background-color: #210002;
+    height: 100vh;
+  }
+  
+  #textblock-container {
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 70px;
+  }
+  
+  #textblock-title {
+    color: #ffaf1b;
+    font-size: 35px;
+    font-weight: 600;
+    font-family: "Helvetica Neue";
+  }
+  
+  #textblock-content {
+    color: #ffaf1b;
+    font-size: 20px;
+  }
+  
+
+  
+  #textblock-devsense {
+    text-decoration: none;
+    color: #ffaf1b;
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  .Pllx{
+    ::-webkit-scrollbar {
+        display: none;
+      }
+  }
+  .Pllx{
+    position: relative;
+    /*top: 100vh;  Start ParallaxSection below the Home section
+    height: calc(100vh - 64px); Adjust for the height of the navbar */
+    overflow: hidden; 
+    height: 100vh;
+  }
+  
+  /* .animation, .animation_layer {
+      height: 1000px;
+  } */
+  
+  .animation {
+    /* display: block;
+      position: relative;
+      z-index: 10; */
+      display: block;
+      position: absolute; /* Set position to absolute */
+      top: 0;
+      left: 0;
+      width: 100%; /* Set width to fill the entire viewport */
+      height: 200%; /* Set height to be taller than the viewport for parallax effect */
+      z-index: 10;
+    
+  }
+  
+  .animation_layer {
+      background-position: bottom center;
+      background-size: auto 1038px;
+      background-repeat: repeat-x;
+      width: 100%;
+      
+      position: absolute;
+  }
+  .animation_layer.parallax {
+      position: fixed;
+  }
+  
+  #background {
+    background-image: url(../Assets/background.jpg);
+  }
+  
+  #mountains {
+    background-image: url(../Assets/mountains.png);
+  }
+  
+  #heading {
+    font-size: xx-large;
+  }
+  
+  #trees {
+    background-image: url(../Assets/trees.png);
+  }
+ 

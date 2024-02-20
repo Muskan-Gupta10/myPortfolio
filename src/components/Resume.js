@@ -87,7 +87,7 @@ const Resume = () => {
 
  
   return (
-    <div id='resume'>
+    <div id='resume' className='mediaContainer'>
         <div className="mainLeft">
             
                 <ul id='resumeUL'>
