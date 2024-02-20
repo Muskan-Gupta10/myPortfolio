@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <>
     
-    <div id="home" >
+    <div id="home" className='mediaContainer'>
       <div className="homeContainer" >
         <div style={{position:'absolute',width:'100vw'}}>
         {/* <Navbar /> */}

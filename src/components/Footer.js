@@ -8,7 +8,7 @@ const Footer = () => {
     const linkedInProfileUrl='https://www.linkedin.com/in/muskan-gupta-19a90626b/'
     const TwitterProfileUrl='https://twitter.com/MuskanGupta__10'
   return (
-    <div id='footer'>
+    <div id='footer' className='mediaContainer'>
         Socials
         <h6>connect with me</h6>
         <div id="footerContent">

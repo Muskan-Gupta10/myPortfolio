@@ -24,9 +24,10 @@ const Contact = () => {
     }
   }
   return (
-    <div id='contact'>
+    <div id='contact' className='mediaContainer'>
       
       <div className="contactWrapper">
+        
         <div className="contactLeft">
           <div className="heading">
           
