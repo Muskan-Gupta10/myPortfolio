@@ -4,10 +4,7 @@ import '../Styles/about.css'
 import { Parallax } from 'react-parallax';
 import bg1 from '../Assets/bg1.jpg'
 import bg2 from '../Assets/bg2.jpg'
-// import photo from '../Assets/fullpic1.png'
-// import frame from '../Assets/frame.png'
-// import {HashLink as Link} from 'react-router-hash-link'
-//import  ParallaxSection   from './ParallaxSection'
+
 const About = () => {
   return (
     <div id='about' className='mediaContainer'>

@@ -1,8 +1,25 @@
 import React, { useState } from 'react'
 import '../Styles/navbar.css'
+import { TfiMenuAlt } from "react-icons/tfi";
 
 const Navbar = ({sections, activeSection, onNavClick}) => {
-
+const [menuDisplay,setMenuDisplay]=useState(false)
+  const handleMenuClick=()=>{
+    const options= document.getElementsByClassName('options')[0]
+    const initials= document.getElementsByClassName('initials')[0]
+    
+    setMenuDisplay(!menuDisplay)
+    // console.log(options.style.display)
+    if(menuDisplay==true){
+      options.style.display='block'
+      initials.style.display='none'
+    }
+    else{
+      options.style.display='none'
+      initials.style.display='block'
+    }
+    
+  }
   const handleClick = (index) => {
     onNavClick(index);
 
@@ -38,16 +55,18 @@ const Navbar = ({sections, activeSection, onNavClick}) => {
       <span className="initials">MG</span>
       <nav className="options">
        
-        <ul id='ul'>
+        <ul className='ul'>
         {sections.map((section,index)=>(
           
           <li key={index} className={index===activeSection?'active':''}>
-            <button id='navbtn' onClick={()=> handleClick(index)}>{section}</button>
+            <button className='navbtn' onClick={()=> handleClick(index)}>{section}</button>
           </li>
         ))}
         </ul>
+        
       </nav>
-      
+     
+      <TfiMenuAlt id='menubtn' onClick={handleMenuClick}/>
     </div>
     
   )
