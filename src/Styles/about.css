@@ -1,4 +1,5 @@
 #about{
+    max-width: 100vw;
     /* height: 145vh; */
     overflow-x: hidden;
 }
@@ -19,7 +20,7 @@
     justify-content: center;
     align-items: center;
 }
-.photo{
+/* .photo{
     position: relative;
     display: flex;
     justify-content: center;
@@ -32,7 +33,7 @@
     background-repeat: no-repeat;
     background-position: center;
 
-    background-image: url('../Assets/Untitled\ design\ \(2\).png'); */
+    background-image: url('../Assets/Untitled\ design\ \(2\).png'); 
 }
 
 .photoImage{
@@ -44,11 +45,11 @@
 .frameImage{
     position: absolute;
     top: 0;
-    /* left: 0; */
+     left: 0; 
     width: 80%;
     height: 100%;
     z-index: 1;
-}
+} */
 .topRightShadow,
 .bottomLeftShadow {
     position: absolute;

@@ -5,7 +5,7 @@
 }
 #education{
    height: 120vh;
-   width: 100%;
+   max-width: 100vw;
    background-image: linear-gradient(to right,rgb(255, 255, 255),rgb(143, 114, 119),rgb(82, 42, 42),rgb(24, 8, 8));
     display: flex;
     justify-content: center;
@@ -59,6 +59,9 @@
 .d4{
     margin-top: 75vh;
 }
+.small{
+    display: none;
+}
 .eduContent,.expContent{
     position: absolute;
     display: flex;
@@ -92,3 +95,82 @@
 .erc5{
     margin-left:-250px ;
 }
+/* media queries */
+/* 2xl */
+@media (max-width: 1536px) {
+   
+  }
+  
+  /* xl */
+  @media (max-width: 1280px) {
+    
+  }
+  
+  /* lg */
+  @media (max-width: 1024px) {
+    .eduLeft,.expLeft{
+        float: left;
+        width: 50%;
+        margin-left: 10vw;
+        margin-top: -5vh;
+    }
+    .eduRight,.expRight{
+        padding-left: 11vw;
+    }
+    .eduContent{
+        font-size: .9rem;
+    }
+    .d2{
+        margin-top: 45.5vh;
+    }
+    .d3{
+        margin-top: 64vh;
+    }
+    .d4{
+        margin-top: 83vh;
+    }
+  }
+  
+  /* md */
+  @media (max-width: 768px) {
+    .eduRight{
+        padding-left: 10vw;
+    }
+    .expRight{
+        padding-left: 0vw ;
+    }
+    .eduLeft,.expLeft{
+        float: left;
+        width: 50%;
+        margin-left: 11vw;
+        margin-top: -5vh;
+    }
+    .expLeft{
+        margin-left: 20vw;
+    }
+  }
+  
+  /* sm */
+  @media (max-width: 640px) {
+   .line,.eduContent,.expContent,.dots{
+    display: none;
+   }
+   .b {
+    height: 35px;
+    width: 180px;
+    }
+    .eduContentsmall{
+        display: block;
+        position: absolute;
+    margin-top: 12vh;
+    color: rgb(233, 224, 224);
+    width: 60%;
+    }
+  }
+  
+  /* xs */
+  @media (max-width: 475px) {
+    .container {
+      width: 100%;
+    }
+  }
