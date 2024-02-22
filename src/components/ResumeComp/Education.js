@@ -42,8 +42,11 @@ const Education = () => {
             Kharagpur Hitakarini Higher Secondary School
         
         </div>
+        
       </div>
-     
+      <div className="eduContentsmall">
+          hiohh
+        </div>
       </>
     )
   

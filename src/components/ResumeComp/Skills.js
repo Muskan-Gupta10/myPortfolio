@@ -121,9 +121,9 @@ const Skills = () => {
       <Skill id="progress4" label="Mongo DB" endValue={85} />
     
     </div>
-
+<br/>
     <div className="skills2">
-      <div className="div1">
+      {/* <div className="div1">
         <Skill2 id="progress5" label="Data Structure And Algorithm" endValue={65}/>
         <br/>
         <Skill2 id="progress6" label="Tailwind CSS" endValue={80}/>
@@ -133,8 +133,18 @@ const Skills = () => {
       <Skill2 id="progress7" label="Html5" endValue={70}/>
       <br/>
         <Skill2 id="progress8" label="CSS3" endValue={75}/>
-      </div>
+      </div> */}
+          <div className="divprogress">
+        <Skill2 id="progress5" label="Data Structure And Algorithm" endValue={65}/>
+        
+        <Skill2 id="progress6" label="Tailwind CSS" endValue={80}/>
+        
+      <Skill2 id="progress7" label="Html5" endValue={70}/>
+     
+        <Skill2 id="progress8" label="CSS3" endValue={75}/>
+      </div> 
     </div>
+    <br/>
     </div>
 
  
