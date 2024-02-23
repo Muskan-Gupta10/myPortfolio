@@ -4,19 +4,24 @@
     box-sizing: border-box;
 }
 #contact{
-    height: 100vh;
+    height: auto;
+    
+    padding: 10%;
+    /* */
+}
+.contactWrapper{
+    width: 100%;
+    /* background-color: rgb(123, 96, 60); */
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.contactWrapper{
-    width: 80%;
-    /* background-color: rgb(123, 96, 60); */
-    height: 80%;
+    flex-wrap: wrap; 
+    gap:10vw
 }
 .contactLeft{
-    float: left;
-    width: 40%;
+    /* float: left;
+    width: 50%; */
     color: rgb(70, 18, 18);
     height: 100%;
 }
@@ -39,8 +44,8 @@
     border-radius: 50%;
 }
 .contactRight{
-    float:left;
-    width:60%;
+    /* float:left;
+    width:50%; */
     height: 100%;
     
     display: flex;
@@ -48,7 +53,7 @@
     align-items: center;
 }
 .heading{
-    padding-left: 20vw;
+    /* padding-left: 20vw; */
     font-size: larger;
 }
 #contactForm{
@@ -56,10 +61,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap:3vh
+    gap:3vh;
+    width: 100%;
 }
 .inputs{
-    width:25vw;
+    width:80%;
     height: 50px;
     border: none;
     border-radius: 3px;
@@ -72,7 +78,7 @@
     box-sizing: border-box;
     padding: 10px;
     background-color: rgb(230, 229, 227);
-    width:25vw;
+    width:80%;
 }
 #submit{
     background-color: rgb(70, 18, 18);
@@ -91,3 +97,24 @@
   #pcontact{
     font-size: 1rem;
   }
+
+
+  /* media queries */
+  /* xs */
+@media (max-width: 475px) {
+ .inputs{
+    height: 40px;
+ }
+}
+@media (max-width: 350px) {
+    .inputs{
+       height: 30px;
+    }
+    .circleImage{
+        height: 150px;
+        width: 150px;
+    }
+    #submit{
+        font-size: 13px;
+    }
+   }
