@@ -96,3 +96,12 @@
       width: 100%;
     }
   }
+  @media(max-width: 400px){
+    .mainLeft>ul>li{
+      padding-bottom: 8px;
+      font-size:large;
+    }
+   .mainLeft{
+    padding-left: .5rem;
+  }
+    }

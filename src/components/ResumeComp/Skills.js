@@ -135,13 +135,13 @@ const Skills = () => {
         <Skill2 id="progress8" label="CSS3" endValue={75}/>
       </div> */}
           <div className="divprogress">
-        <Skill2 id="progress5" label="Data Structure And Algorithm" endValue={65}/>
+        <Skill2 id="progress5" className="prog" label="Data Structure And Algorithm" endValue={65}/>
         
-        <Skill2 id="progress6" label="Tailwind CSS" endValue={80}/>
+        <Skill2 id="progress6" className="prog" label="Tailwind CSS" endValue={80}/>
         
-      <Skill2 id="progress7" label="Html5" endValue={70}/>
+      <Skill2 id="progress7" className="prog" label="Html5" endValue={70}/>
      
-        <Skill2 id="progress8" label="CSS3" endValue={75}/>
+        <Skill2 id="progress8" className="prog" label="CSS3" endValue={75}/>
       </div> 
     </div>
     <br/>
