@@ -55,6 +55,7 @@
 .heading{
     /* padding-left: 20vw; */
     font-size: larger;
+    width: 100%;
 }
 #contactForm{
     display: flex;
@@ -100,11 +101,20 @@
 
 
   /* media queries */
+  /* sm */
+@media (max-width: 640px) {
+    .heading{
+        font-size: 1rem;
+    }
+}
   /* xs */
 @media (max-width: 475px) {
  .inputs{
     height: 40px;
  }
+ .heading{
+    font-size: .8rem;
+}
 }
 @media (max-width: 350px) {
     .inputs{
@@ -116,5 +126,8 @@
     }
     #submit{
         font-size: 13px;
+    }
+    .heading{
+        font-size: .8rem;
     }
    }
