@@ -45,7 +45,48 @@ const Education = () => {
         
       </div>
       <div className="eduContentsmall">
-          hiohh
+        
+      <div className="upperContent uc1">December 2022 to April 2023</div>
+      <div className="linesmall"></div>
+      <div className="dotsSmall d5 "></div>
+      <div className="lowerContent lowc1">
+          <h3>
+            Full-Stack Development BootCamp
+          </h3>
+          6-month full-time program focused on DS/Algos & Full-stack Tech
+          </div>
+
+          <br /><br />
+
+          <div className="upperContent uc2">August 2017 to August 2021</div>
+          <div className="linesmall"></div>
+      <div className="dotsSmall d6"></div>
+      <div className="lowerContent lowc2"> 
+          <h3>B.Tech in Computer Science Engineering</h3>
+          Calcutta Institute of Technology
+          </div>
+
+          <br /><br />
+
+          <div className="upperContent uc3">2015 to 2017</div>
+          <div className="linesmall"></div>
+      <div className="dotsSmall d7"></div>
+      <div className="lowerContent lowc3">
+          <h3>Higher Secondary- Class XII</h3>
+          S.E. Railway Girls' Higher Secondary School
+          </div>
+
+      <br /><br />
+
+      <div className="upperContent uc4">2015</div>
+      <div className="linesmall"></div>
+      <div className="dotsSmall d8"></div>
+      <div className="lowerContent lowc4">
+          <h3>Secondary - Class X</h3>
+            Kharagpur Hitakarini Higher Secondary School
+        
+        </div>
+
         </div>
       </>
     )
@@ -68,6 +109,18 @@ const Education = () => {
          
         
         </div>
+      </div>
+      <div className="expContentsmall">
+          <div className="expupperContent euc5">October 2021 to Present</div>
+        
+      <div className="linesmall"></div>
+      <div className="dotsSmall d9"></div>
+      <div className="explowerContent elowc5">
+          <h3>
+            Wipro Ltd.
+          </h3>
+          Project Engineer
+          </div>
       </div>
      
       </>

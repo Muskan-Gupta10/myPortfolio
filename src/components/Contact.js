@@ -25,16 +25,21 @@ const Contact = () => {
   }
   return (
     <div id='contact' className='mediaContainer'>
-      
+       <div className="heading">
+          
+          <h2>Contact</h2>
+          Get in touch : <br />
+          {/* <h3>Let's Connect</h3> */}
+              <i>I'm currently seeking opportunities to leverage my unique blend of skills and experience to tackle exciting challenges in the tech industry. Whether you're looking for a motivated team member, have a project idea you'd like to discuss, or simply want to connect, I'd love to hear from you!<br/>
+                Feel free to reach out to me
+                </i>  
+          </div>
       <div className="contactWrapper">
         
         <div className="contactLeft">
-          <div className="heading">
-          
-          <h2>Contact</h2>
-          Get in touch 
+         
           <div className="circleImage"><div id="image"></div></div>
-          </div>
+          
         </div>
         <div className="contactRight">
           <form  id='contactForm' action='https://formspree.io/f/mqkrezkg' method='POST'>

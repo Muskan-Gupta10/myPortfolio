@@ -40,10 +40,10 @@ const About = () => {
 
 📈 With a track record of delivering results and exceeding expectations, I'm driven by a desire to make a meaningful impact and contribute to the success of any team or project.<br/>
                 </p><br />
-                <h3>Let's Connect</h3>
+                {/* <h3>Let's Connect</h3>
               <i><p id='pcontact'>I'm currently seeking opportunities to leverage my unique blend of skills and experience to tackle exciting challenges in the tech industry. Whether you're looking for a motivated team member, have a project idea you'd like to discuss, or simply want to connect, I'd love to hear from you!<br/>
                 Feel free to reach out to me</p>
-                </i>  
+                </i>   */}
                 </div>
                     {/* <div className="info i2">
                     <div className="sec1">
