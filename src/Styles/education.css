@@ -197,7 +197,7 @@
         font-size: .8rem;
         padding-left: 15%;
         background-image: linear-gradient(to right,rgb(255, 255, 255),rgb(143, 114, 119),rgb(82, 42, 42));
-   
+        height: 125vh;
     }
     .b {
         height: 30px;
@@ -215,6 +215,6 @@
         #education{
             font-size: .6rem;
             padding-left: 15%;
-            height: 100vh;
+            height: 102vh;
         }     
   }
