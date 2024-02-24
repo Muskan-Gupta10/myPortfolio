@@ -196,14 +196,19 @@
     #education{
         font-size: .8rem;
         padding-left: 15%;
-        background-image: linear-gradient(to right,rgb(255, 255, 255),rgb(143, 114, 119),rgb(82, 42, 42));
-        height: 125vh;
+        background-image: linear-gradient(to right,rgb(255, 255, 255),rgb(143, 114, 119),rgb(82, 42, 42),rgb(24, 8, 8));
+        height: 120vh;
     }
     .b {
         height: 30px;
         width: 120px;
         font-size: .75rem;
         }
+  }
+  @media(width<=410px){
+    #education{
+        height: 125vh;
+    }
   }
   @media(width<=340px){
     .b {
@@ -215,6 +220,6 @@
         #education{
             font-size: .6rem;
             padding-left: 15%;
-            height: 102vh;
+            height: 100vh;
         }     
   }

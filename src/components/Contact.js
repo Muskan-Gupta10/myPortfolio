@@ -43,10 +43,10 @@ const Contact = () => {
         </div>
         <div className="contactRight">
           <form  id='contactForm' action='https://formspree.io/f/mqkrezkg' method='POST'>
-            <input type='text' placeholder='Your Name' name='name' className='inputs'></input>
-            <input type='text' placeholder='Email' name='email' className='inputs'></input>
-            <input type='text' placeholder='Subject' name='subject' className='inputs'></input>
-            <textarea className='textarea' name='message' rows="10" cols="41" placeholder='Message'></textarea>
+            <input type='text' placeholder='Your Name' name='name' className='inputs' required></input>
+            <input type='text' placeholder='Email' name='email' className='inputs' required></input>
+            <input type='text' placeholder='Subject' name='subject' className='inputs' required></input>
+            <textarea className='textarea' name='message' rows="10" cols="41" placeholder='Message' required></textarea>
             
             <button type="submit" id='submit'>Send Message</button>
           </form>
