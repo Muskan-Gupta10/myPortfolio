@@ -101,7 +101,7 @@ const Skill = ({ id, label, endValue }) => {
 
   return (
     <div className="skills-container" id={id}>
-      <div className="circular-progress" style={{ background: `conic-gradient(rgb(89, 79, 66)  ${gradientAngle}deg, #ededed 350deg)` }}>
+      <div className="circular-progress" style={{ background: `conic-gradient(rgb(216, 202, 75)  ${gradientAngle}deg, #ededed 350deg)` }}>
         <span className="progress-value">{`${progress}%`}</span>
       </div>
       <span className="skills-text">{label}</span>

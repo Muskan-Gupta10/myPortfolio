@@ -6,7 +6,7 @@
 }
 #skills{
     height: auto;
-    background-image:linear-gradient(to right , rgb(252, 252, 252,.5) ,rgb(202, 194, 185),rgb(172, 155, 134),rgb(172, 155, 134)) ;
+    background-image:linear-gradient(to right , rgb(252, 252, 252,.5) ,#DEDCDD,#9CA6A7,#616565,rgba(12, 12, 12)) ;
     padding: 20px;
    
 }
@@ -57,7 +57,8 @@
     position: relative;
     font-size: 40px;
     font-weight: 600;
-    color: rgb(89, 79, 66);
+    color: #4f4f4f;
+    text-shadow: 5px 1px 5px #dacd5a
 }
 .skills-text{
     font-size: 1.875rem;
@@ -75,7 +76,8 @@
     height: 40vh;
     /* flex-direction: column; */
     gap:10px;
-    color: #352020;
+    color: #3c3535;
+    text-shadow: 1px 1px 4px #dacd5a
 }
 .divprogress{
     width: 100%;
@@ -103,7 +105,7 @@
     width: 0%;
     height: .625rem;
     border-radius: 5px;
-    background-color: #352020;
+    background-color: #d8ca4b;
     
 }
 

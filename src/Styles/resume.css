@@ -32,7 +32,7 @@
 }
 .mainLeft>ul>li>a:hover{
     cursor: pointer;
-    color:rgb(185, 164, 164) 
+    color:#d8ca4b
 }
 .mainRight{
     /* background-color: rgb(243, 209, 184); */
@@ -43,7 +43,7 @@
 }
 .activeResume>a{
     margin-left: 10px ; /* Adjust this value based on your design */
-    color:rgb(185, 164, 164) !important;
+    color:#d8ca4b !important;
     transition: margin-left 0.3s ease ; 
 }
 

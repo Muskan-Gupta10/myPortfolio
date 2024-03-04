@@ -5,6 +5,7 @@
 }
 #contact{
     height: auto;
+    background: linear-gradient(to right,#616565,#cbcdcd,#e6e9e9,#f6fbfb,rgb(252, 252, 252));
     
     padding: 10%;
     /* */
@@ -22,7 +23,7 @@
 .contactLeft{
     /* float: left;
     width: 50%; */
-    color: rgb(70, 18, 18);
+    color: #3d3431;
     height: 100%;
 }
 .circleImage{
@@ -56,6 +57,14 @@
     /* padding-left: 20vw; */
     font-size: larger;
     width: 100%;
+    color: #57443e;
+    font-weight: 500;
+}
+.heading h2{
+    font-size: 3rem;
+    color: #eedb33;
+    text-shadow: 3px 1px 5px black
+
 }
 #contactForm{
     display: flex;
@@ -71,22 +80,25 @@
     border: none;
     border-radius: 3px;
     padding: 10px;
-    background-color: rgb(230, 229, 227);
+    background-color: rgb(190, 188, 185);
 }
 .textarea{
     border: none;
     border-radius: 3px;
     box-sizing: border-box;
     padding: 10px;
-    background-color: rgb(230, 229, 227);
+    background-color: rgb(190, 188, 185);
     width:80%;
 }
 #submit{
-    background-color: rgb(70, 18, 18);
-    color: rgb(250, 243, 233);
+    background-color: #52382f;
+    color: rgb(246, 235, 185);
     border-radius: 3px;
     font-size: 16px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#submit:hover{
+    color: #d8ca4b;
 }
 /* textarea {
     width: 100%;

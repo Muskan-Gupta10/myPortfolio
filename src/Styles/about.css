@@ -15,7 +15,7 @@
 .photoContainer{
     width: 20%;
     float:left;
-    background: linear-gradient(to right, rgb(2, 2, 2),rgb(98, 93, 86),rgb(176, 162, 146),rgba(250, 248, 247, 0.5)) ;
+    background: linear-gradient(to right, rgb(2, 2, 2),#616565) ; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -78,14 +78,21 @@
     padding-top: 100px;
     width: 80%;
     float:left;
-    background:linear-gradient(to left, rgb(248, 246, 248), rgb(248, 246, 248,.5));
+    background: linear-gradient(to right,#616565,#cbcdcd,#e6e9e9,#f6fbfb,rgb(252, 252, 252));
+    /* #c4c8c9,rgb(252, 252, 252,.5)background:linear-gradient(to left, rgb(248, 246, 248), rgb(248, 246, 248,.5)); */
     padding: 10%;
+}
+.aboutDetails h3{
+    color: #27261c;
+    text-shadow: 5px 1px 5px #dacd5a
 }
 h1{
     font-size: 50px;
+    color: #dacd5a;
+    text-shadow: 5px 5px 5px black
 }
 .i1{
-    color: rgb(90, 87, 87);
+    color: #644a41;
     margin-bottom: 40px;
     font-weight: 500;
     text-align: justify;

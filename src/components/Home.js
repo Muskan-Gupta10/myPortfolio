@@ -14,7 +14,7 @@ const Home = () => {
           <div className='box b1'>Hi! I'm Muskan Gupta</div>
           <div className='box b2'>I am a FullStack Developer</div>
           <a href='Muskan Resume.pdf' download='Resume.pdf'>
-          <div className="cvLink" style={{color:'blanchedalmond',textDecoration:'underline'}}>Download CV</div>
+          <div className="cvLink" >Download CV</div>
           </a>
           </div>
         </div>
