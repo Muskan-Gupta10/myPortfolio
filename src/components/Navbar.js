@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import '../Styles/navbar.css'
 import { TfiMenuAlt } from "react-icons/tfi";
-
+import initials from '../Assets/initials.png'
 const Navbar = ({sections, activeSection, onNavClick}) => {
 const [menuDisplay,setMenuDisplay]=useState(false)
   const handleMenuClick=()=>{
@@ -52,7 +52,8 @@ const [menuDisplay,setMenuDisplay]=useState(false)
     
     
     <div className={fixed?"navbarContainer fixed":"navbarContainer"} mediaContainer>
-      <span className="initials">MG</span>
+      <span className="initials" ></span>
+    
       <nav className="options">
        
         <ul className='ul'>

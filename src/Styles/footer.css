@@ -6,21 +6,31 @@
 #footer{
     height: 30vh;
     width: 100%;
-    background-color: rgba(82, 47, 47);
+    background: linear-gradient(to right,#616565,#cbcdcd,#e6e9e9,#f6fbfb,rgb(252, 252, 252));
+  
+}
+#footerWrapper{
+    height: 30vh;
+    width: 100%;
+    background-color: #52382f;
     border-top-left-radius:100%;
     border-top-right-radius:100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: antiquewhite;
+    color: rgb(246, 235, 185);
+    
     font-size:30px;
     flex-direction: column;
     gap:10px
 }
 #footerContent a{
     padding: 10px ;
-    color: antiquewhite;
+    color: rgb(246, 235, 185);
     text-decoration: none;
+}
+#footerContent a:hover{
+    color: #d8ca4b;
 }
 /* media queries */
 /* xs */

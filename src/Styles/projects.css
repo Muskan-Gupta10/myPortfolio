@@ -6,7 +6,9 @@
 #projects{
     /* height: 260vh; */
     height: auto;
-    background-image: linear-gradient(to right, rgb(251, 249, 249,.2),rgb(153, 83, 83,.6),rgb(119, 33, 33),rgb(62, 6, 6),rgb(36, 3, 3))
+    background-image: linear-gradient(to right,rgb(255, 255, 255),#CEB3A1,#705248,#705248,#302724);
+   
+    /* background-image: linear-gradient(to right, rgb(251, 249, 249,.2),rgb(153, 83, 83,.6),rgb(119, 33, 33),rgb(62, 6, 6),rgb(36, 3, 3)) */
 }
 #heading1{
     color: #352020;
@@ -27,11 +29,12 @@
     padding: 5%;
 }
 .project1,.project2{
-    background-color: antiquewhite;
+    background-color: rgb(246, 235, 185);
     width: 23rem;
     height: 17rem;
     margin:  5%;
     /* margin-left: 15px; */
+    border-radius: 5px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -57,8 +60,14 @@
    
 }
 .bttn1>a,.bttn2>a{
-    color: white;
+    color: rgb(246, 235, 185);
     text-decoration: none;
+}
+.bttn1>a:hover{
+    color: #d8ca4b;
+}
+ .bttn2>a:hover{
+    color: #d8ca4b;
 }
 .p1{
     background-image: url('../Assets/realestate1.png');
@@ -130,8 +139,9 @@
     margin-left: 15vw;
     }
     #projects{
-        background-image: linear-gradient(to right, rgb(251, 249, 249,.2),rgb(153, 83, 83,.6),rgb(119, 33, 33),rgb(62, 6, 6))
-
+        /* background-image: linear-gradient(to right, rgb(251, 249, 249,.2),rgb(153, 83, 83,.6),rgb(119, 33, 33),rgb(62, 6, 6)) */
+        background-image: linear-gradient(to right,rgb(255, 255, 255),#CEB3A1,#705248,#705248,#302724);
+   
     }
 }
 @media (max-width: 380px) {
