@@ -133,8 +133,8 @@
         padding-left: 80px;
     }
     .project1{
-        width: 15rem;
-    height: 10rem;
+        width: 20rem;
+    height: 15rem;
     margin: 4%;
     margin-left: 15vw;
     }
@@ -149,9 +149,12 @@
         padding-left: 60px;
     }
     .project1{
-        width: 10rem;
-    height: 6rem;
-    margin: 2%;
+        width: 15rem;
+    height: 10rem;
+    margin-bottom: 10%;
     
     }
+    .bttn1, .bttn2{
+        padding: 3px;
+        }
 }

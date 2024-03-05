@@ -159,7 +159,7 @@
   .initials{
     /* font-size: 2rem; */
     padding: 0px 0px 37px 0px;
-    margin: 8px 0px 0px 0px;
+    margin: 8px 0px 0px -50px;
   }
 
   }
@@ -255,7 +255,7 @@
   }
   .initials{
     display: block;
-    margin: 8px 0 0 0px;
+    margin: 8px 0 0 -45px;
     transform: scale(1.2);
   } 
   }
