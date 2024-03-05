@@ -1,7 +1,14 @@
-import React, { useState } from 'react'
+import React, { useState,useEffect } from 'react'
 import '../../Styles/education.css'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
+
 const Education = () => {
 
+  useEffect(()=>{
+    AOS.init({duration:1500})
+},[])
   const [showEducation,setShowEducation]=useState(true)
   const handleToggle=()=>{
     setShowEducation(!showEducation)
@@ -15,14 +22,14 @@ const Education = () => {
       <div className="dots d2"></div>
       <div className="dots d3"></div>
       <div className="dots d4"></div>
-      <div className="eduContent">
+      <div className="eduContent" data-aos='fade-up'>
         <div className="eduLeft">
           <div className="leftContent lc1">December 2022 to April 2023</div>
           <div className="leftContent lc2">August 2017 to August 2021</div>
           <div className="leftContent lc3">2015 to 2017</div>
           <div className="leftContent lc4">2015</div>
         </div>
-        <div className="eduRight">
+        <div className="eduRight" data-aos='fade-up'>
         <div className="rightContent rc1">
           <h3>
             Full-Stack Development BootCamp
@@ -44,7 +51,7 @@ const Education = () => {
         </div>
         
       </div>
-      <div className="eduContentsmall">
+      <div className="eduContentsmall" data-aos='fade-up'>
         
       <div className="upperContent uc1">December 2022 to April 2023</div>
       <div className="linesmall"></div>
@@ -95,7 +102,7 @@ const Education = () => {
     <>
         <div className="line l2"></div>
       <div className="dots d1"></div>
-      <div className="expContent">
+      <div className="expContent" data-aos='fade-up'>
         <div className="expLeft">
           <div className="expleftContent elc5">October 2021 to Present</div>
         </div>
@@ -110,7 +117,7 @@ const Education = () => {
         
         </div>
       </div>
-      <div className="expContentsmall">
+      <div className="expContentsmall" data-aos='fade-up'>
           <div className="expupperContent euc5">October 2021 to Present</div>
         
       <div className="linesmall"></div>

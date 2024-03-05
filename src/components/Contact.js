@@ -1,6 +1,12 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import '../Styles/contact.css'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
 const Contact = () => {
+  useEffect(()=>{
+    AOS.init({duration:2000})
+},[])
   const onSubmit = async (event) => {
     event.preventDefault();
     const formData = new FormData(event.target);
@@ -24,8 +30,8 @@ const Contact = () => {
     }
   }
   return (
-    <div id='contact' className='mediaContainer'>
-       <div className="heading">
+    <div id='contact'  className='mediaContainer'>
+       <div className="heading" data-aos='fade-right'>
           
           <h2>Contact</h2>
           Get in touch : <br />
@@ -38,7 +44,7 @@ const Contact = () => {
         
         <div className="contactLeft">
          
-          <div className="circleImage"><div id="image"></div></div>
+          <div className="circleImage" ><div id="image" ></div></div>
           
         </div>
         <div className="contactRight">

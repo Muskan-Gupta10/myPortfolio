@@ -1,11 +1,15 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import '../Styles/about.css'
-
-import { Parallax } from 'react-parallax';
-import bg1 from '../Assets/bg1.jpg'
-import bg2 from '../Assets/bg2.jpg'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+// import { Parallax } from 'react-parallax';
+// import bg1 from '../Assets/bg1.jpg'
+// import bg2 from '../Assets/bg2.jpg'
 
 const About = () => {
+    useEffect(()=>{
+        AOS.init({duration:1500})
+    },[])
   return (
     <div id='about' className='mediaContainer'>
         <div className="aboutContainer">
@@ -18,10 +22,10 @@ const About = () => {
                 </div> */}
                 
             </div>
-            <div className="aboutDetails">
+            <div className="aboutDetails" >
                 
                 <h1>About Me</h1><br/>
-                <div className="info i1">
+                <div className="info i1" data-aos='zoom-in-up'>
                     <p>Hey there! 👋 I'm Muskan Gupta, a passionate and enthusiastic full-stack developer with a Bachelor's degree in Computer Science and Engineering. I have a keen interest in building innovative web applications. While my professional background may not be strictly tech-focused, my passion for coding and problem-solving led me to pursue a career in software development.
                 </p><br/>
 
